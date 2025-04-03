@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook - DigitalODS: El Arte del Cambio - Sesión 2</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        .header { background-color: #2196F3; color: white; text-align: center; padding: 10px; } /* Blue Accent */
+        .activity { margin-bottom: 20px; }
+        .banner {
+            background-color: #2196F3; /* Blue Accent */
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .content { display: none; padding: 10px; border: 1px solid #ddd; margin-bottom: 10px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+            vertical-align: top;
+        }
+        span[style*="color: red;"] {
+            font-weight: bold;
+        }
+         ul, ol {
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .time-title { margin-bottom: 20px; text-align: center; font-size: 1.2em; color: #555;} /* Style for static title */
+    </style>
+    <script>
+        function toggleContent(id) {
+            const content = document.getElementById(id);
+            if (content) {
+                content.style.display = content.style.display === "none" ? "block" : "none";
+            }
+        }
+
+        // Initialize content hidden state on load
+        window.onload = () => {
+             // Ensure all content starts hidden
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => {
+                content.style.display = 'none';
+            });
+        };
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Playbook - Taller: DigitalODS: El Arte del Cambio (2º Primaria) - Sesión 2</h1>
+    </div>
+    <div class="container">
+        <!-- Static Time Title -->
+        <h2 class="time-title">Tiempo efectivo de clase: 40 minutos</h2>
+
+        <!-- De un Vistazo y Preparación Previa -->
+        <div id="activity-0" class="activity">
+            <div class="banner" onclick="toggleContent('activity_0_content')">
+                <div class="title">📝 De un Vistazo: Sesión 2</div>
+            </div>
+            <div id="activity_0_content" class="content">
+                <table>
+                    <tr>
+                        <td style="width: 50%; padding: 10px; border-right: 1px solid #ddd;">
+                            <strong>🎯 Objetivos:</strong>
+                            <ul>
+                                <li>Completar la generación inicial de ideas sobre el ODS elegido (Mind Map).</li>
+                                <li>Generar una gran cantidad de bocetos rápidos de posibles conceptos de arte interactivo (Crazy Eights).</li>
+                                <li>Seleccionar individualmente la idea más prometedora o favorita para desarrollar (Invest my mon-e).</li>
+                                <li>Compartir brevemente las ideas seleccionadas.</li>
+                            </ul>
+                            <strong>💡 Tácticas Principales:</strong> Mind Map (Guiado - Continuación), Crazy Eights, Invest Your mon-e (Simplificado: Vota por tu Favorito).
+                            <br><br>
+                            <strong>🔑 Entregable Clave:</strong> Hoja individual con 8 bocetos (Crazy Eights) con la idea favorita marcada. Mind Map por equipo completado.
+                        </td>
+                        <td style="width: 50%; padding: 10px;">
+                            <strong>🛠️ Materiales Específicos:</strong>
+                            <ul>
+                                <li>Proyector o pantalla interactiva.</li>
+                                <li>Presentación de diapositivas (Diapositivas 13-17 detalladas abajo).</li>
+                                <li>Acceso a tablero Miro (o similar) con los Mind Maps iniciados por cada equipo, o los rotafolios/papeles grandes de la Sesión 1.</li>
+                                <li>Hojas blancas dobladas en 8 secciones (una por niño).</li>
+                                <li>Lápices, marcadores, colores.</li>
+                                <li>Pegatinas de estrellas o marcadores para votar (Invest my mon-e).</li>
+                            </ul>
+                             <strong>🔧 Preparación Previa para ESTA Sesión:</strong>
+                            <ol>
+                                <li><strong>Presentación Lista:</strong> Tener listas las Diapositivas 13 a 17.</li>
+                                <li><strong>Material Crazy Eights:</strong> Preparar una hoja doblada en 8 secciones para cada niño.</li>
+                                <li><strong>Material Votación:</strong> Tener listas pegatinas de estrellas o marcadores de colores vivos.</li>
+                                <li><strong>Espacio de Trabajo:</strong> Asegurarse de que los Mind Maps (digitales o físicos) estén accesibles para cada equipo.</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Desarrollo de la Sesión -->
+
+        <!-- Actividad 1: Recap y Enfoque ODS -->
+        <div id="activity-1" class="activity" data-time="3">
+            <div class="banner" onclick="toggleContent('activity_1_content')">
+                <div class="title">🔄 Actividad 1: Recap y Enfoque ODS ⏰ Tiempo: 3 minutos</div>
+            </div>
+            <div id="activity_1_content" class="content">
+                <table>
+                    <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Paso 1:</strong> Proyectar la <strong>Diapositiva 13</strong>: "¡Sesión 2: Tormenta de Ideas Artísticas!". Mostrar título, imagen (remolino de dibujos/colores/icono Scratch) y texto motivador.
+                        </td>
+                        <td>
+                            "¡Hola de nuevo, artistas digitales! ¡Bienvenidos a la Sesión 2 de 'DigitalODS: El Arte del Cambio'! ¿Recuerdan que en la sesión pasada empezamos a explorar un problema de la Tierra con nuestros mapas de ideas?"
+                            <br><br>
+                            "Hoy vamos a terminar esos mapas y luego... ¡prepárense para una verdadera tormenta de creatividad! Vamos a dibujar muchísimas ideas para nuestro arte interactivo. ¡Saquen sus lápices más rápidos!"
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 2: Táctica 3: Lluvia Ideas Visual (Mind Map Guiado - Continuación) -->
+        <div id="activity-2" class="activity" data-time="5">
+            <div class="banner" onclick="toggleContent('activity_2_content')">
+                <div class="title">🗺️ Actividad 2: Táctica 3: Lluvia Ideas Visual (Mind Map Guiado - Continuación) ⏰ Tiempo: 5 minutos</div>
+            </div>
+            <div id="activity_2_content" class="content">
+                <table>
+                     <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Paso 1:</strong> Proyectar la <strong>Diapositiva 14</strong>: "Ejemplo Voices for Change". Mostrar el Mind Map resultante como referencia visual (Centro: "Voces por el Clima"; Ramas "VER", "OÍR", "HACER" con dibujos simples). Pedir a los equipos que vuelvan a sus Mind Maps (Miro/papel).
+                        </td>
+                        <td>
+                            "Volvamos a nuestros Mind Maps. Miren las ideas que ya pusieron sobre qué VEMOS, OÍMOS y HACEMOS respecto a su misión ODS (Clima, Agua o Animales/Plantas)."
+                            <br><br>
+                            "Ahora, en equipo, añadan rápidamente 2 o 3 ideas más en cada rama (Ver, Oír, Hacer). ¿Se les ocurre algo nuevo? ¿Algún detalle más? ¡Completen su mapa!"
+                             <br><br>
+                            <em>(Circular y animar a los equipos a añadir los últimos detalles a sus mapas. Recordarles que no tiene que ser perfecto, el objetivo es cerrar la exploración inicial).</em>
+                             <br><br>
+                             <em>(Consejo Maestro: El objetivo es cerrar la exploración inicial, no la perfección. Anima a la rapidez.)</em>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <strong>Paso 2:</strong> Marcar el entregable.
+                        </td>
+                        <td>
+                             "¡Genial! ¡Esos mapas de ideas están llenos de potencial!"
+                             <br><br>
+                             <em>(Entregable: Mind Map por equipo completado (digital o físico)).</em>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 3: Táctica 4: 8 Bocetos de Arte Rápido (Crazy Eights) -->
+        <div id="activity-3" class="activity" data-time="17">
+            <div class="banner" onclick="toggleContent('activity_3_content')">
+                 <div class="title">✏️💨 Actividad 3: Táctica 4: 8 Bocetos de Arte Rápido (Crazy Eights) ⏰ Tiempo: 17 minutos</div>
+            </div>
+            <div id="activity_3_content" class="content">
+                 <table>
+                     <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Paso 1:</strong> Proyectar la <strong>Diapositiva 15</strong>: "¡Nivel 3! Crazy Eights - ¡8 Ideas en Tiempo Récord!". Mostrar instrucción, imagen de hoja doblada con bocetos simples y icono de cronómetro ⏱️. Distribuir las hojas dobladas en 8.
+                        </td>
+                        <td>
+                            "¡Prepárense para el desafío más rápido y loco: Crazy Eights! Tomen su hoja doblada en 8 cuadros. La misión es dibujar 8 ideas DIFERENTES de cómo podría ser su 'Arte Interactivo por la Tierra' basado en su Mind Map. ¡Una idea en cada cuadro!"
+                             <br><br>
+                             "No se preocupen por que quede perfecto. Son bocetos súper rápidos: un dibujo simple, quizás una palabra clave. Piensen en diferentes formas de mostrar su mensaje ODS, diferentes interacciones con Scratch..."
+                             <br><br>
+                             "¡Tienen unos 15 minutos! ¡El objetivo es llenar los 8 cuadros! ¡No piensen mucho, solo dibujen! ¡A sus marcas, listos... a dibujar!"
+                              <br><br>
+                             <em>(Poner música enérgica. Mostrar un temporizador visual. Animar constantemente: "¡Vamos, otra idea!", "¡No importa si es loca!", "¡Rápido, rápido!").</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                             <strong>Paso 2:</strong> Proyectar la <strong>Diapositiva 16</strong>: "¡8 Bocetos de Voices for Change!". Mostrar los 8 bocetos de ejemplo con sus explicaciones adaptadas.
+                        </td>
+                        <td>
+                             <em>(Mientras dibujan, o como inspiración inicial, mostrar los ejemplos):</em>
+                             <br><br>
+                             "Miren cómo lo hicieron los creadores de 'Voices for Change':"
+                             <br>
+                            "**1. El Mapa Interactivo:** ¡Un mapa del mundo! Y al hacer clic en los puntitos de luz de cada país, ¡escuchabas una voz de alguien de allí!"
+                            <br>
+                            "**2. Viaje por Ondas de Sonido:** ¡Viajar entre las voces como si fueran música! Te movías, y al tocar una onda o círculo de sonido, ¡escuchabas lo que decía!"
+                            <br>
+                            "**3. Los Animales Mensajeros:** ¿Y si los animales nos trajeran los mensajes? Dibujaron que encontrabas diferentes animales por el mundo, ¡y ellos te 'contaban' las voces de las personas!" (Ej: Oso polar, pájaro, pez).
+                            <br>
+                            "**4. El Jardín Creciente de Voces:** ¡Un jardín mágico! Cada vez que escuchabas una voz (la luz), ¡hacías crecer una planta o una flor en ese lugar!"
+                            <br>
+                            "**5. Constelación de Voces:** ¡Como mirar el cielo nocturno! Cada estrella era una voz importante, y al conectarlas, ¡formaban dibujos que contaban una historia sobre el planeta!"
+                            <br>
+                            "**6. Islas Flotantes de los ODS:** ¡Un mundo súper fantástico con islas flotantes! Cada isla representaba un lugar o un tema diferente (como el bosque o el hielo), y viajabas entre ellas para encontrar voces."
+                            <br>
+                            "**7. El Gran Árbol de las Voces:** ¡Dibujaron un árbol gigante, gigante! Y cada hoja o fruto brillante que colgaba de él era una voz diferente. ¡Tocabas uno y escuchabas!"
+                             <br>
+                            "**8. Paisaje Geométrico Explorable (Low-Poly):** ¡Un mundo como de bloques o figuras geométricas! Viajabas por montañas y ríos buscando las luces brillantes, ¡que eran las voces escondidas!"
+                            <br><br>
+                            "¡Sigan dibujando sus propias ideas locas y geniales!"
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                           <strong>Paso 3:</strong> Concluir el tiempo de dibujo. Recordar consejo y marcar entregable.
+                        </td>
+                        <td>
+                             "¡Tiempo! ¡Wow, cuántas ideas han plasmado!"
+                             <br><br>
+                             <em>(Consejo Maestro: Enfatiza la cantidad sobre la calidad. Lo importante es generar variedad. Si algún niño se bloquea, sugiérele mirar el Mind Map o combinar ideas.)</em>
+                             <br><br>
+                            <em>(Entregable: Hoja individual con 8 bocetos rápidos de ideas de arte interactivo).</em>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+         <!-- Actividad 4: Táctica 5: Vota por tu Favorito -->
+        <div id="activity-4" class="activity" data-time="5">
+            <div class="banner" onclick="toggleContent('activity_4_content')">
+                <div class="title">⭐ Actividad 4: Táctica 5: Vota por tu Favorito (Invest my mon-e) ⏰ Tiempo: 5 minutos</div>
+            </div>
+            <div id="activity_4_content" class="content">
+                 <table>
+                     <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                             <strong>Paso 1:</strong> Proyectar la <strong>Diapositiva 17</strong>: "¡Nivel 4! Vota por tu Favorito - ¡La Estrella Dorada!". Mostrar instrucción, imagen de hoja Crazy Eights con una estrella sobre un boceto. Distribuir pegatinas/marcadores.
+                        </td>
+                        <td>
+                           "¡Tiempo! ¡Wow, cuántas ideas! Ahora, miren sus 8 bocetos. De todas esas ideas geniales que dibujaron, ¿cuál es su <strong>favorita</strong>? ¿Cuál les emociona más para convertirla en un proyecto de Scratch?"
+                           <br><br>
+                           "Tomen una calcomanía de estrella (o un marcador brillante) y pónganla sobre el boceto que más les guste. ¡Esa será su idea estrella para seguir trabajando! Si los bocetos los tienen digitales, usen un sticker de estrella."
+                            <br><br>
+                            <em>(Dar tiempo para que cada niño elija y marque su favorito).</em>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                           <strong>Paso 2:</strong> Facilitar el compartir en equipos.
+                        </td>
+                        <td>
+                             "¡Perfecto! Ahora, en sus equipos, tómense un par de minutos para mostrarle a sus compañeros cuál eligieron y decir súper rápido por qué les gusta tanto esa idea. ¡Compartan su idea estrella!"
+                             <br><br>
+                             <em>(Facilitar que dentro de cada equipo, cada niño muestre su favorito y diga una frase sobre por qué lo eligió).</em>
+                             <br><br>
+                             <em>(Consejo Maestro: Este paso es individual para empoderar la elección personal, pero el compartir rápido en equipo fomenta la comunicación y permite ver la diversidad de enfoques.)</em>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                           <strong>Paso 3:</strong> Marcar el entregable.
+                        </td>
+                        <td>
+                           "¡Genial! Ahora cada uno tiene su idea estrella seleccionada."
+                            <br><br>
+                           <em>(Entregable: Cada niño tiene su hoja de Crazy Eights con un boceto favorito marcado con una estrella).</em>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 5: Mini-Galería y Cierre -->
+        <div id="activity-5" class="activity" data-time="10">
+            <div class="banner" onclick="toggleContent('activity_5_content')">
+                 <div class="title">🖼️ Actividad 5: Mini-Galería y Cierre ⏰ Tiempo: 10 minutos</div>
+            </div>
+            <div id="activity_5_content" class="content">
+                 <table>
+                     <tr>
+                        <th style="width: 50%;">Acción</th>
+                        <th style="width: 50%;">Diálogo del Maestro</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Paso 1:</strong> Guiar una "Mini-Galería" rápida.
+                        </td>
+                        <td>
+                            "¡Increíble, artistas! Cada uno tiene ahora su 'idea estrella'. Vamos a hacer una 'Mini-Galería' súper rápida. Pónganse de pie y caminen un poquito para ver las hojas de Crazy Eights de otros equipos (o de sus propios compañeros si están en mesas)."
+                            <br><br>
+                             "Solo echen un vistazo rápido a las ideas favoritas de los demás. ¡Vean cuánta creatividad hay en esta sala!"
+                              <br><br>
+                             <em>(Permitir una caminata corta o intercambio visual rápido).</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <strong>Paso 2:</strong> Cerrar la Sesión 2 y hacer la transición a la Sesión 3.
+                        </td>
+                        <td>
+                            "¡Muy bien! ¡Sesión 2 completada! Han generado muchísimas ideas y cada uno ha elegido su favorita."
+                             <br><br>
+                             "En la próxima sesión, vamos a tomar esas ideas favoritas y empezaremos a pensar: ¿cómo funcionaría exactamente la interacción en nuestro arte? Usaremos las tácticas '¿Qué Pasa Si...?' y 'Mi Arte en Acción' (Storyboard). ¡Prepárense para darle vida a sus bocetos!"
+                             <br><br>
+                            "¡Guarden bien sus hojas de Crazy Eights con su estrella! ¡Son su mapa para la próxima sesión! ¡Nos vemos!"
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div> <!-- Fin del container -->
+</body>
+</html>
